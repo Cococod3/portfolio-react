@@ -1,7 +1,8 @@
 [{
     "id": 1,
     "title": "9th Company",
-    "genre": "Action|Drama|War"
+    "genre": "Action|Drama|War",
+    "path": "../assets/moviePosters/movie1.jpeg"
   }, {
     "id": 2,
     "title": "Toast of New York, The",

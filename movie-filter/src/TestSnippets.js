@@ -1,20 +1,13 @@
 import "./App.css";
 import { useState } from "react";
-// import movies from "./db/movies.json";
-import { movies } from "./db/movies";
-import MovieInfo from "./components/MovieInfo";
-import MovieImg from "./components/MovieImg";
-// import movie1 from "./assets/moviePosters/movie1.jpg";
-
+import movies from "./db/movies.json";
 function App() {
   const [movieList, setMovieList] = useState(movies);
-
   // Movie filters:
   const filterComedy = () => {
     let comedyMovies = movies.filter((movie) => {
       return movie.genre.includes("Comedy");
     });
-    console.log(comedyMovies);
     setMovieList(comedyMovies);
   };
   const filterDrama = () => {
@@ -66,22 +59,18 @@ function App() {
         <button onClick={filterAction}>Action</button>
         <button onClick={filterDrama}>Drama</button>
         <button onClick={filterComedy}>Comedy</button>
-
         <button onClick={filterThriller}>Thriller</button>
         <button onClick={filterWestern}>Western</button>
         <button onClick={filterWar}>War</button>
         <button onClick={filterRomance}>Romance</button>
       </div>
-      {/* <img src={require("./assets/moviePosters/movie1.jpeg")} alt="movie1" /> */}
       <div className="movies-wrapper">
-        {movies.map((movie) => {
-          return (
-            <div key={movie.id} className="card">
-              <MovieImg movie={movie}></MovieImg>
-              <MovieInfo movie={movie}></MovieInfo>
-            </div>
-          );
-        })}
+        {movieList.map((movie) => (
+          <div key={movie.id} className="card">
+            <h2>{movie.title}</h2>
+            <h3>{movie.genre}</h3>
+          </div>
+        ))}
       </div>
     </div>
   );
