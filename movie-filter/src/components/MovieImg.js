@@ -1,4 +1,4 @@
-// import './MovieImage.css';
+import './MovieImg.css';
 
 
 function MovieImage(props) {
@@ -6,7 +6,7 @@ function MovieImage(props) {
   <div className="img-container">
             <div className="img-wrapper">
               <img src={props.movie.img.path} alt={props.movie.img.text} />
-              {/* <span className="dot"></span> */}
+
             </div>
           </div>
           );
