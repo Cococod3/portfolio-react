@@ -75,7 +75,7 @@ function App() {
     <div className="main">
       <div className="fa-layers fa-fw">
         {" "}
-        <FontAwesomeIcon inverse  className="logo-cam" size="4x" icon={faClapperboard} />
+        <FontAwesomeIcon inverse  className="logo-clapper" size="4x" icon={faClapperboard} />
         {/* <FontAwesomeIcon
           className="logo-cam2"
           rotation={180}

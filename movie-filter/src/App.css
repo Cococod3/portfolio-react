@@ -38,16 +38,18 @@ body {
   position: relative;
 }
 
-.main .logo-cam {
+.main .logo-clapper {
+  position: absolute;
   color: #7f5a83;
   rotate: -15deg;
 }
 div .fa-layers {
-  position: absolute;
   color: #1b2845;
-  display: flex;
-  margin: 2em 30em;
-  top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: 30px;
+  right: 180px;
 }
 
 .filter-buttons {
