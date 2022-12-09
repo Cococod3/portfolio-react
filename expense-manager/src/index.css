@@ -12,6 +12,17 @@
   --teal: #20c997;
   --cyan: #0dcaf0;
   --dark: #282828;
+  --bg-yellow: #FFFAE5;
+  --bg2-yellow: #FFF6CC;
+  --box-yellow: #FFF2B2;
+  --box2-yellow: #FFEE99;
+  --box3-yellow: #FFE97F;
+  --text-yellow: #FFE14C;
+  --text2-yellow: #FFE566;
+  --text3-yellow: #FFDD32;
+  --title-yellow: #FFD819;
+  --title2-yellow: #FFD400;
+
 }
 *,
 ::after,
@@ -25,6 +36,9 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  background-color: var(--bg-yellow);
+  width: 100vw;
+  min-height: 100vh;
 }
 h1,
 h2,
@@ -51,4 +65,10 @@ h5{
 }
 h6{
   font-size: .7rem;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
