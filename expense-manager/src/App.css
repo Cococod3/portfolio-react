@@ -3,3 +3,6 @@
   padding: 2em 4em;
 
 }
+h1{
+  color: var(--title2-yellow)
+}

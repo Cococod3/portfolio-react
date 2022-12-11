@@ -5,6 +5,7 @@ function App() {
     <div className="main">
       <h1>Transactions</h1>
       <Expenses />
+
     </div>
   );
 }

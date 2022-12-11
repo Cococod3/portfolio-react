@@ -1,0 +1,6 @@
+.item-info {
+    flex-basis: 50%;
+  }
+  .item-info h2 {
+    color: var(--title2-yellow);
+  }

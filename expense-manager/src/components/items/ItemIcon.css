@@ -1,0 +1,16 @@
+.item-icon {
+    flex-basis: 15%;
+  }
+  /* Icon stacks */
+.incoming {
+    color: var(--text3-yellow);
+  }
+  .light-incoming {
+    color: var(--bg-yellow);
+  }
+  .outgoing {
+    color: var(--text3-yellow);
+  }
+  .light-outgoing {
+    color: var(--bg-yellow);
+  }

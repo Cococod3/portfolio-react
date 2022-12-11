@@ -1,0 +1,18 @@
+.item-cost {
+    flex-basis: 35%;
+    justify-content: flex-end;
+    padding-right: 2em;
+  }
+  
+  /* Money */
+  .income {
+    color: var(--icon-green);
+    font-weight: 200;
+  }
+  .expense {
+    color: var(--icon-red);
+    font-weight: 200;
+  }
+  .m-left-20 {
+    margin-left: 0.4em;
+  }
