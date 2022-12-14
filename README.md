@@ -1,2 +1,2 @@
 # portfolio-react
-React projects, practicing code.
+Personal React projects.
