@@ -1,0 +1,9 @@
+.login-form {
+  width: 100%;
+  background-color: antiquewhite;
+}
+.error-message {
+  background-color: rgb(255, 99, 99);
+  transition: all 1s ease-in;
+
+}

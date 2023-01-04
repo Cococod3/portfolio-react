@@ -1,0 +1,11 @@
+.log-button{
+    background-color: lightblue;
+    border: 3px solid rgb(103, 196, 226);
+    border-radius: 1rem;
+    margin: .3em;
+    height: 30px;
+    width: 120px;
+    color: white;
+    font-weight: 600;
+
+}
